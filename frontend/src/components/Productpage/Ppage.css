@@ -1,0 +1,11 @@
+.fontthin{
+    font-weight: 300!important;
+}
+
+.visible{
+    display: block;
+}
+
+.none{
+    display: none;
+}

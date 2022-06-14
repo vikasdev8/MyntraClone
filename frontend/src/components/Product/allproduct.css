@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Whitney';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Whitney'), url('https://fonts.cdnfonts.com/s/38487/whitneymedium.woff') format('woff');
+}
+
+.page-item {
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    border: 0.5px solid rgb(255, 255, 255);
+    padding: 0.3vmax 1vmax;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  .page-item:first-child {
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .page-item:last-child {
+    border-radius: 0 5px 5px 0;
+  }
+  .page-link {
+    text-decoration: none;
+    font-size: medium;
+    font-family: 'Whitney';
+    font-weight: 700;
+    color: rgb(80, 80, 80);
+    transition: all 0.3s;
+  }
+  
+  .page-item:hover {
+    /* background-color: rgb(230, 230, 230); */
+    border: 0.5px solid rgba(51, 50, 50, 0.178)
+  }
+  
+  .page-item:hover .page-link {
+    color: rgb(0, 0, 0);
+  }
+  
+  .pageItemActive {
+    background-color: #282c3f;
+  }
+  
+  .pageLinkActive {
+    color: white;
+  }
+  
+  .paginationBox {
+    display: flex;
+    justify-content: center;
+    margin: 2vmax;
+    width: 96%;
+
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+
+  @media screen and (max-device-width: 1023px) { 
+  
+    .mobilevisible{
+        display: block!important;
+    }
+}

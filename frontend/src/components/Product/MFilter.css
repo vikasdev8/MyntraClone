@@ -1,0 +1,41 @@
+.grey{
+    color: rgb(93, 93, 93);
+}
+
+.black{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-weight: 600;
+    
+}
+
+.tickcolor{
+    border-color: #fb56c1!important;
+    border-width: 1px!important;
+
+}
+
+.fontbold{
+    font-weight: 600;
+}
+
+.rightdiv{
+    
+        content: "";
+        top: 4px;
+        left: 4px;
+        width: 8px;
+        height: 5px;
+        border-color: #bfc0c6;
+        border-style: none none solid solid;
+        border-width: 1px;
+        transform: rotate(-45deg);
+    
+}
+
+.Dhidden{
+    display: none!important;
+}
+.Dvisibile{
+    display: block!important;
+}

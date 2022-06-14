@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Whitney';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Whitney'), url('https://fonts.cdnfonts.com/s/38487/whitneymedium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Whitney2';
+    font-weight: 300!important;
+    src: local('Whitney'), url('https://fonts.cdnfonts.com/s/38487/whitneymedium.woff') format('woff');
+}
+
+.font1{
+    font-family: 'Whitney';
+
+}
+
+.font2{
+    font-family: 'Whitney2';
+    font-weight: 300!important;
+}
+
+.cborder1:hover{
+    border-bottom: 4px solid #ee5f73 ;
+}
+
+
+.cborder2:hover{
+    border-bottom: 4px solid #fb56c1 ;
+}
+
+
+.cborder3:hover{
+    border-bottom: 4px solid #f26a10 ;
+}
+
+
+.cborder4:hover{
+    border-bottom: 4px solid #f2c210 ;
+}
+
+
+.cborder5:hover{
+    border-bottom: 4px solid #0db7af ;
+}
+
+
+.cborder6:hover{
+    border-bottom: 4px solid #ff3f6c ;
+}
+
+.search{
+    
+        display: inline-block;
+        font-size: 14px;
+        height: 20px;
+        line-height: 24px;
+        width: 95%;
+        color: #696e79;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+        padding: 8px 10px 10px;
+        margin: 0;
+        outline: 0;
+        border: 1px solid #f5f5f6;
+        border-radius: 0 4px 4px 0;
+        border-left: 0;
+        background: #f5f5f6;
+        justify-self: center;
+    
+}
+.msearch{
+    
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    width: 100%;
+    color: #696e79;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 0px 10px;
+    margin: 0;
+    outline: 0;
+    border-left: 0;
+    background: #ffffff;
+    justify-self: center;
+    border:none;
+    outline:none
+   
+}
+.msearch:focus-visible{
+    border: none!important;
+    outline: none!important;
+
+} 
+
+
+.search_div{
+
+    width: 320px;
+    float: left;
+    display: flex;
+}
+
+.searchbtn{
+        border: 1px solid #f5f5f6;
+        border-radius: 0 4px 4px 0;
+        border-right: 0;
+        width: 5%;
+        margin: 0;
+        outline: 0;
+        padding: 8px 10px 10px;
+        -webkit-box-sizing: content-box;
+        height: 20px;
+        line-height: 24px;
+        display: inline-block;
+        font-size: 14px;
+        background: #f5f5f6;
+}
+.Mmenu{
+    transition-delay: .15s;
+    transition: all .2s ease-out;
+}
+
+.litext{
+    
+        font-size: 14px;
+        line-height:  23px;
+    
+}
+
+.skewnew{
+    transform: skew(-20deg);
+}
+
+
+@media screen and (max-device-width: 1023px) { 
+        .contenthide{
+            display: none!important;
+            
+        }
+}
+

@@ -1,0 +1,11 @@
+.canvas{
+    width: 293px!important;
+}
+
+
+@media screen and (max-device-width: 1023px) { 
+    .MNavbar{
+        display: block!important;
+    }
+   
+}

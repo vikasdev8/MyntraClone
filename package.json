@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "fast-two-sms": "^3.0.0",
+    "imagekit": "^3.2.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.4",
+    "nodemon": "^2.0.16",
+    "path-browserify": "^1.0.1",
+    "razorpay": "^2.8.1",
+    "util": "^0.12.4",
+    "validator": "^13.7.0"
+  },
+  "name": "myntra",
+  "version": "1.0.0",
+  "main": "backend/services.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/services.js",
+    "dev": "nodemon backend/services.js"
+  },
+  "author": "Vikas Verma",
+  "license": "ISC",
+  "description": "E-commerce website"
+}
